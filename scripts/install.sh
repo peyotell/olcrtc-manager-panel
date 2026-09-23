@@ -22,7 +22,7 @@ random_port() {
 PANEL_REPO="${PANEL_REPO:-https://github.com/peyotell/olcrtc-manager-panel.git}"
 PANEL_REF="${PANEL_REF:-main}"
 OLCRTC_REPO="${OLCRTC_REPO:-https://github.com/peyotell/olcrtc.git}"
-OLCRTC_REF="${OLCRTC_REF:-old-stable}"
+OLCRTC_REF="${OLCRTC_REF:-stable}"
 GO_VERSION="${GO_VERSION:-1.26.3}"
 MIN_BUILD_MEMORY_MB="${MIN_BUILD_MEMORY_MB:-2048}"
 AUTO_SWAP="${AUTO_SWAP:-1}"
